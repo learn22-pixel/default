@@ -59,7 +59,7 @@ def run_portfolio_analysis(
     stress_vol_increase: float = 0.10,
     stress_duration_days: int = 252,
     n_simulations: int = 1000,
-    output_dir: str = 'reports'
+    output_dir: str = 'result'
 ) -> dict:
     """Run the complete portfolio analysis pipeline."""
 
